@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    font-family: "Cabin", sans-serif;
+}
+
+h3
+{
+    text-align: center;
+    color: #002147;
+    background-color: cornflowerblue;
+    padding: 3rem;
+}
+
+p
+{
+    padding: 3rem;
+    font-weight: 400;
+}

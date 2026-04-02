@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+body
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border box altera tudo até a caixa 
+     ou content box altera apenas a letra*/ 
+
+}
+
+body
+{
+    background-color: #FFE5B4;
+    color: #3D0C02;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+header
+{
+    padding: 2rem;
+    background-color: #CBA135;
+    text-align: center;
+}
+
+main
+{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+}
+
+h2
+{
+    color: #D2691E;
+    font-size: 1.2rem;
+}
+
+input[type="radio"], input[type="checkbox"]
+{
+    accent-color: #B8860B;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="date"]
+{
+    width: 100%;
+    padding: 0.6rem;
+    border: 2px solid #B8860B;
+    outline: none;
+    border-radius: 8px;
+    background-color: transparent;
+}
+
+input::placeholder
+{
+    color: #B8860B;
+}
+
+select
+{
+    cursor: pointer;
+    background-color: #B8860B;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 10%;
+    padding: 0.4rem;
+}
+
+img
+{
+    width: 40rem;
+    border-radius: 7px;
+}
+
+table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th
+{
+    background-color: #CBA135;
+    padding: 1rem;
+    text-align: center;
+}
+
+td
+{
+    text-align: center;
+    padding: 1rem;
+}
+
+details
+{
+    background-color: #E4D00A;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+summary
+{
+    color: brown;
+}
+
+ul li
+{
+    padding: 0.4rem;
+}
+
+fieldset
+{
+    border: 2px solid #B8860B;
+    border-radius: 5px;
+    padding: 1.8rem;
+}
+
+textarea
+{
+    outline: none;
+    background-color: transparent;
+    border: 2px solid #B8860B;
+    border-radius: 5px;
+}
+
+button
+{
+    background-color: #DFFF00;
+    border-radius: 5px;
+    border: none;
+    padding: 0.5rem;
+    color: darkblue;
+    cursor: pointer;
+}
+
+footer
+{
+    background-color: #CBA135;
+    text-align: center;
+    padding: 2rem;
+}
+
+.paragrafo-footer
+{
+    color: antiquewhite;
+}
